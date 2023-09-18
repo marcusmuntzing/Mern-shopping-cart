@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    height: -webkit-fill-available; /* We have to fix html height */
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #fff6f6;
+    height: 100vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
